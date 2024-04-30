@@ -166,7 +166,7 @@ test_image_gen = image_gen.flow_from_directory(test_path,
                                                class_mode='binary',shuffle=False)
 ```
 ```python
-results = model.fit(train_image_gen,epochs=2,validation_data=test_image_gen)
+results = model.fit(train_image_gen,epochs=5,validation_data=test_image_gen)
 ```
 
 **metrics**
@@ -209,15 +209,15 @@ confusion_matrix(test_image_gen.classes,predictions)
 
 ### Training Loss, Validation Loss Vs Iteration Plot
 
-<img src="" width="400" height="280">
+<img src="https://github.com/PriyankaAnnadurai/malaria-cell-recognition/assets/118351569/8ef6ef47-8fa7-4ca7-8d5e-df9cdb21233b" width="400" height="280">
 
 ### Classification Report and Confusion Matrix
 
-<img src="" width="500" height="200">
+<img src="https://github.com/PriyankaAnnadurai/malaria-cell-recognition/assets/118351569/dfa41a72-6d3d-4547-827c-2ee3cdee1cfa" width="500" height="200">
 
 ### New Sample Data Prediction
 
-<img src="" width="280" height="300">
+<img src="https://github.com/PriyankaAnnadurai/malaria-cell-recognition/assets/118351569/d724ba7d-2c52-4185-b884-9e2ae4fda93d" width="280" height="300">
 
 ## RESULT
 
